@@ -1,4 +1,4 @@
-.place__website_url-link {
+.place__url-link {
     margin: 0;
     font-family: 'Inter';
     font-style: normal;
@@ -10,6 +10,6 @@
     transition: opacity 0.4s ease;
 }
 
-.place__website_url-link:hover {
+.place__url-link:hover {
     opacity: 0.8;
   }
