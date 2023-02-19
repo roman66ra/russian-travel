@@ -1,4 +1,4 @@
-.places__place_paragraph {
+.place__paragraph {
     margin: 0;
     font-family: 'Inter';
     font-style: normal;
@@ -8,28 +8,28 @@
     color: #FFFFFF;
 }
 
-.places__place_paragraph:nth-child(2){
+.place__paragraph:nth-child(2){
     margin-top: 26px;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    .places__place_paragraph {
+    .place__paragraph {
         font-size: 18px;
         line-height: 29px;
     }
 
-    .places__place_paragraph:nth-child(2) {
+    .place__paragraph:nth-child(2) {
         margin-top: 25px;
     }
   }
 
 @media screen and (max-width: 767px) {
-    .places__place_paragraph {
+    .place__paragraph {
         font-size: 16px;
         line-height: 26px;
     }
 
-    .places__place_paragraph:nth-child(2) {
+    .place__paragraph:nth-child(2) {
         margin-top: 25px;
     }
   
