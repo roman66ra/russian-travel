@@ -1,0 +1,36 @@
+.places__place_paragraph {
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    color: #FFFFFF;
+}
+
+.places__place_paragraph:nth-child(2){
+    margin-top: 26px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .places__place_paragraph {
+        font-size: 18px;
+        line-height: 29px;
+    }
+
+    .places__place_paragraph:nth-child(2) {
+        margin-top: 25px;
+    }
+  }
+
+@media screen and (max-width: 767px) {
+    .places__place_paragraph {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .places__place_paragraph:nth-child(2) {
+        margin-top: 25px;
+    }
+  
+  }

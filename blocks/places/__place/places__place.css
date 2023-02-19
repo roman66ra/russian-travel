@@ -1,0 +1,30 @@
+.places__place {
+    display: grid;
+    gap: 48px 40px;
+    grid-template-columns: 460px 484px;
+    grid-template-rows: 1fr;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .places__place {
+        gap: 48px 32px;
+        grid-template-columns: 440px 456px;
+        margin: 0 auto;
+    }
+  }
+  
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .places__place {
+        margin: 0 auto;
+        gap: 48px 28px;
+        grid-template-columns: 340px 352px;
+    }
+  }
+  
+@media screen and (max-width: 767px) {
+    .places__place {
+        grid-template-columns: 320px;
+        gap: 32px;
+    }
+  }
