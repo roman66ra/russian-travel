@@ -6,3 +6,9 @@
     background-color: #2A2C2F;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 767px) {
+    .page {
+        padding-bottom: 6px;
+    }
+  }
